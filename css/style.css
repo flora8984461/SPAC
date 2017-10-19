@@ -546,6 +546,7 @@ footer hr{
   color: #fff;
   position: relative;
   z-index: 1;
+  vertical-align: middle;
 }
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
