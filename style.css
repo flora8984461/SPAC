@@ -1144,73 +1144,86 @@ div.patron-intrest {
 }
 
 /* PARTNER SPONSORS */
-#ingenius-sponsor{
-  max-width: 800px
+#cse-sponsor{
+  max-width: 600px
 }
 
 
 /* GOLD SPONSORS */
-#ieee-ottawa-section-sponsor{
+#accenture-sponsor{
     width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 400px;
+    margin-top: 25px;
+}
+
+#bell-sponsor{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
     margin-top: 25px;
 }
 
 /* SILVER SPONSORS */
 
-#accenture-sponsor {
-  width:  45%;
-  max-width: 350px;
-  margin-top: 10px;
+#drdc-sponsor {
+  	width:  100%;
+  	max-width: 350px;
+  	margin-top: 60px;
 }
 
 #carleton-doe-sponsor{
-    width:  70%;
+    width:  100%;
     height: auto;
     max-width: 350px;
     margin-top: 60px;
+}
+
+#youi-sponsor{
+    width: 70%;
+    margin-top: 10px;
+    max-width: 350px;
 }
 
 #carleton-fed-sponsor{
-    width: 90%;
-    margin-top: 60px;
-    max-width: 350px;
-}
-
-#carleton-sce-sponsor{
-    width:  70%;
+    width:  100%;
     height: auto;
     max-width: 350px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 #lumenera-sponsor{
-  margin-top: 60px;
-  max-width: 350px;
+  	margin-top: 100;
+ 	max-width: 350px;
 }
 
-#march-networks-sponsor{
-  margin-top: 30px;
-  margin-bottom: 0px;
-  max-width: 350px;
+#deloitte-sponsor{
+	width: 100%;
+ 	margin-top: 10px;
+  	max-width: 350px;
 }
 
 #alg-sponsor {
-  margin-top: 30px;
+  	margin-top: 60px;
 }
 
 /*BRONZE SPONSORS*/
 
-#ibm-sponsor{
+#jsi-sponsor{
     width:  45%;
     max-width: 120px;
     margin-top: 10px;
 }
 
-#blackberry-sponsor {
-    margin-top: 37px;
-    width: 100%;
+#real-decoy-sponsor{
+    width:  45%;
+    max-width: 120px;
+    margin-top: 10px;
+}
+
+#cusa-sponsor {
+    margin-top: 60px;
+    width: 120px;
     max-width: 380px;
 }
 /*--------------------*/
