@@ -1143,13 +1143,36 @@ div.patron-intrest {
     margin: 20px;
 }
 
+
+
+/* HOVER DIV */
+
+#sponsorDiv {
+    text-align: center;
+}
+div.sponsorDiv+div.cse-sponsor{
+  	display: none;
+}
+div.sponsorDiv:hover +div.cse-sponsor{
+	width: 100%;
+  	display: block;
+}
+
+div.sponsorDiv+div.col-lg-12 {
+  	display: none;
+}
+div.sponsorDiv:hover +div.col-lg-12 {
+	width: 100%;
+  	display: block;
+}
 /* PARTNER SPONSORS */
+
 #cse-sponsor{
   max-width: 600px
 }
 
-
 /* GOLD SPONSORS */
+
 #accenture-sponsor{
     width: 100%;
     height: 150px;
