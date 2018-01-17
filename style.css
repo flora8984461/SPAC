@@ -1257,23 +1257,6 @@ div.sponsorDiv:hover +div.col-lg-12 {
     max-width: 120px;
 }
 
-/*--------------------*/
-/* Volunteers */
-/*--------------------*/
-
-#mu-volunteer {
-	background-color: #f8f8f8;
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-volunteer-area {
-	display: inline;
-	float: left;
-	padding: 100px 0 50px;
-	width: 100%;
-}
 
 /*--------------------*/
 /* CONTACT US */
