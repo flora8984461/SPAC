@@ -760,7 +760,9 @@ button:focus {
 
 #cse-speaker{
     width: 280px;
+    max-width:280px;
     height: 354px;
+    max-height: 354px;
 }
 
 .mu-speakers-slider .slick-next {
