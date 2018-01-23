@@ -756,6 +756,13 @@ button:focus {
 	transition: all 0.3s ease 0s;
 }
 
+/*CSE Speaker*/
+
+#cse-speaker{
+    width: 280px;
+    height: 354px;
+}
+
 .mu-speakers-slider .slick-next {
 	right: -60px;
 }
