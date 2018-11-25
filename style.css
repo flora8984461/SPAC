@@ -758,7 +758,7 @@ button:focus {
 
 /*CSE Speaker*/
 
-#cse-speaker{
+#qnx-speaker{
     width: 280px;
     max-width:280px;
     height: 354px;
@@ -978,101 +978,6 @@ button:focus {
 }
 
 /*--------------------*/
-/* REGISTER */
-/*--------------------*/
-
-#mu-register {
-	background-image: url("assets/images/register-bg.jpg");
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	display: inline;
-	float: left;
-	position: relative;
-	width: 100%;
-}
-
-#mu-register::before {
-	background: rgba(0,0,0,0.9);
-	bottom: 0;
-	content: '';
-	left: 0;
-	top: 0;
-	right: 0;
-	position: absolute;
-	opacity: 0.9;
-}
-
-.mu-register-area {
-	display: inline;
-	float: left;
-	padding: 150px 0;
-	width: 100%;
-}
-
-.mu-register-area .mu-title,
-.mu-register-area p {
-	color: #fff;
-}
-
-.mu-register-content {
-	display: inline;
-	float: left;
-	width: 100%;
-	text-align: center;
-	padding: 0 200px;
-	margin-top: 50px;
-}
-
-.mu-register-form .form-group {
-	margin-bottom: 25px;
-}
-
-.mu-register-form .form-control {
-	height: 50px;
-	color: #fff;
-	background-color: transparent;
-	border: 2px solid #fff;
-}
-
-.mu-register-form select.form-control option{
-	color: #333;
-}
-
-.mu-register-form .form-control::-webkit-input-placeholder {
-	color: #fff;
-	font-size: 15px;
-}
-
-.mu-register-form .form-control:-moz-placeholder { /* Firefox 18- */
-	color: #fff;
-	font-size: 15px; 
-}
-
-.mu-register-form .form-control::-moz-placeholder {  /* Firefox 19+ */
-	color: #fff;
-	font-size: 15px;
-}
-
-.mu-register-form .form-control:-ms-input-placeholder {  
-	color: #fff;
-	font-size: 15px;
-}
-
-.mu-reg-submit-btn {
-	background-color: transparent;
-	border: 2px solid #fff;
-	color: #fff;
-	padding: 12px 75px;
-	margin-top: 20px;
-	letter-spacing: 1px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-
-/*--------------------*/
 /* SPONSORS */
 /*--------------------*/
 
@@ -1090,6 +995,19 @@ button:focus {
 	width: 100%;
 }
 
+#mu-past-sponsors {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-past-sponsors-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
 .mu-sponsors-content {
 	display: inline;
 	float: left;
@@ -1176,27 +1094,45 @@ div.sponsorDiv:hover +div.col-lg-12 {
 }
 /* PARTNER SPONSORS */
 
-#cse-sponsor{
+#qnx-sponsor{
+    max-width:600px
+}
+
+#cse-sponsor-2018{
   max-width: 600px
 }
 
 /* GOLD SPONSORS */
 
-#accenture-sponsor{
+#cse-sponsor{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 25px;
+}
+
+#qlik-sponsor{
+    width: 100%;
+    height: 75px;
+    max-width: 300px;
+    margin-top: 25px;
+}
+
+#accenture-sponsor-2018{
     width: 100%;
     height: 150px;
     max-width: 300px;
     margin-top: 25px;
 }
 
-#bell-sponsor{
+#bell-sponsor-2018{
     width: 40%;
     height: auto;
     max-width: 300px;
     margin-top: 25px;
 }
 
-#qnx-sponsor{
+#qnx-sponsor-2018{
     width: 100%;
     height: auto;
     max-width: 400px;
@@ -1205,47 +1141,53 @@ div.sponsorDiv:hover +div.col-lg-12 {
 
 /* SILVER SPONSORS */
 
-#drdc-sponsor {
-  	width:  100%;
-  	max-width: 250px;
-  	margin-top: 80px;
-}
-
-#carleton-doe-sponsor{
-    width:  100%;
-    height: auto;
-    max-width: 250px;
-    margin-top: 80px;
-}
-
-#youi-sponsor{
-    width: 70%;
-    max-width: 250px;
-}
-
-#carleton-doe-sponsor{
-    width:  100%;
-    height: auto;
-    max-width: 250px;
-    margin-top: 80px;
-}
-
-#lumenera-sponsor{
-  	margin-top: 100px;
- 	max-width: 250px;
-}
-
 #deloitte-sponsor{
 	width: 100%;
  	margin-top: 50px;
   	max-width: 250px;
 }
 
-#alg-sponsor {
+#drdc-sponsor-2018 {
+  	width:  100%;
+  	max-width: 250px;
+  	margin-top: 80px;
+}
+
+#carleton-doe-sponsor-2018{
+    width:  100%;
+    height: auto;
+    max-width: 250px;
+    margin-top: 80px;
+}
+
+#youi-sponsor-2018{
+    width: 70%;
+    max-width: 250px;
+}
+
+#carleton-doe-sponsor-2018{
+    width:  100%;
+    height: auto;
+    max-width: 250px;
+    margin-top: 80px;
+}
+
+#lumenera-sponsor-2018{
+  	margin-top: 100px;
+ 	max-width: 250px;
+}
+
+#deloitte-sponsor-2018{
+	width: 100%;
+ 	margin-top: 50px;
+  	max-width: 250px;
+}
+
+#alg-sponsor-2018 {
   	margin-top: 100px;
 }
 
-#ieee-sponsor{
+#ieee-sponsor-2018{
 	width: 100%;
 	height: 60px;
  	margin-top: 100px;
@@ -1254,13 +1196,13 @@ div.sponsorDiv:hover +div.col-lg-12 {
 
 /*BRONZE SPONSORS*/
 
-#real-decoy-sponsor{
+#real-decoy-sponsor-2018{
     width:  100%;
     max-width: 120px;
     margin-top: 10px;
 }
 
-#cusa-sponsor {
+#cusa-sponsor-2018 {
     margin-top: 30px;
     width: 30%;
     max-width: 120px;
