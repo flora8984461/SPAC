@@ -1147,6 +1147,12 @@ div.sponsorDiv:hover +div.col-lg-12 {
   	max-width: 250px;
 }
 
+#curtiss-sponsor{
+	width: 100%;
+ 	margin-top: 50px;
+  	max-width: 250px;
+}
+
 #drdc-sponsor-2018 {
   	width:  100%;
   	max-width: 250px;
@@ -1195,6 +1201,12 @@ div.sponsorDiv:hover +div.col-lg-12 {
 }
 
 /*BRONZE SPONSORS*/
+
+#cu-com-sci-sponsor{
+    width:  100%;
+    max-width: 200px;
+    margin-top: 10px;
+}
 
 #real-decoy-sponsor-2018{
     width:  100%;
