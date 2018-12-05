@@ -1153,10 +1153,21 @@ div.sponsorDiv:hover +div.col-lg-12 {
   	max-width: 250px;
 }
 
-#drdc-sponsor-2018 {
+#mindbridge-sponsor {
   	width:  100%;
   	max-width: 250px;
-  	margin-top: 80px;
+  	margin-top: 50px;
+}
+
+#drdc-sponsor {
+  	width:  100%;
+  	max-width: 250px;
+}
+
+#drdc-sponsor-2018 {
+  	width:  100%;
+ 	margin-top: 50px;
+  	max-width: 250px;
 }
 
 #carleton-doe-sponsor-2018{
@@ -1203,6 +1214,12 @@ div.sponsorDiv:hover +div.col-lg-12 {
 /*BRONZE SPONSORS*/
 
 #cu-com-sci-sponsor{
+    width:  100%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+#martello-sponsor{
     width:  100%;
     max-width: 200px;
     margin-top: 10px;
