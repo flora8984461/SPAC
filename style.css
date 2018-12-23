@@ -1106,9 +1106,9 @@ div.sponsorDiv:hover +div.col-lg-12 {
 /* GOLD SPONSORS */
 
 #cse-sponsor{
-    width: 100%;
+    width: 200%;
     height: auto;
-    max-width: 300px;
+    max-width: 400px;
     margin-top: 25px;
 }
 
@@ -1116,7 +1116,7 @@ div.sponsorDiv:hover +div.col-lg-12 {
     width: 100%;
     height: 75px;
     max-width: 300px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 #sce-sponsor{
@@ -1174,8 +1174,9 @@ div.sponsorDiv:hover +div.col-lg-12 {
 }
 
 #general-dynamics-sponsor {
-  	width:  120%;
-  	max-width: 300px;
+  	width:  170%;
+  	max-width: 350px;
+	margin-top: 25px;
 }
 
 #lumenera-sponsor {
