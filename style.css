@@ -1095,11 +1095,12 @@ div.sponsorDiv:hover +div.col-lg-12 {
 /* PARTNER SPONSORS */
 
 #qnx-sponsor{
-    max-width:600px
+    max-width:600px;
+	margin-top: 25px;
 }
 
 #cse-sponsor-2018{
-  max-width: 600px
+	max-width: 600px
 }
 
 /* GOLD SPONSORS */
@@ -1116,6 +1117,13 @@ div.sponsorDiv:hover +div.col-lg-12 {
     height: 75px;
     max-width: 300px;
     margin-top: 25px;
+}
+
+#sce-sponsor{
+    width: 100%;
+    height: 75px;
+    max-width: 300px;
+    margin-top: 40px;
 }
 
 #accenture-sponsor-2018{
@@ -1143,25 +1151,36 @@ div.sponsorDiv:hover +div.col-lg-12 {
 
 #deloitte-sponsor{
 	width: 100%;
- 	margin-top: 50px;
+ 	margin-top: 20px;
   	max-width: 250px;
 }
 
 #curtiss-sponsor{
 	width: 100%;
- 	margin-top: 50px;
+ 	margin-top: 30px;
   	max-width: 250px;
 }
 
 #mindbridge-sponsor {
   	width:  100%;
   	max-width: 250px;
-  	margin-top: 50px;
+  	margin-top: 70px;
 }
 
 #drdc-sponsor {
   	width:  100%;
   	max-width: 250px;
+	margin-top: 10px;
+}
+
+#general-dynamics-sponsor {
+  	width:  120%;
+  	max-width: 300px;
+}
+
+#lumenera-sponsor {
+  	width:  120%;
+  	max-width: 300px;
 }
 
 #drdc-sponsor-2018 {
@@ -1216,13 +1235,43 @@ div.sponsorDiv:hover +div.col-lg-12 {
 #cu-com-sci-sponsor{
     width:  100%;
     max-width: 200px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 #martello-sponsor{
     width:  100%;
     max-width: 200px;
-    margin-top: 10px;
+    margin-top: 25px;
+}
+
+#cu-career-services-sponsor{
+    width:  100%;
+    max-width: 200px;
+    margin-top: 70px;
+}
+
+#scalian-sponsor{
+    width:  100%;
+    max-width: 200px;
+    margin-top: 70px;
+}
+
+#ross-video-sponsor{
+    width:  90%;
+    max-width: 150px;
+    margin-top: 70px;
+}
+
+#cusa-sponsor{
+    width:  90%;
+    max-width: 150px;
+    margin-top: 70px;
+}
+
+#carleton-doe-sponsor{
+    width:  140%;
+    max-width: 250px;
+    margin-top: 70px;
 }
 
 #real-decoy-sponsor-2018{
