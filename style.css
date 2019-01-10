@@ -22,6 +22,11 @@
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
+.carousel-inner{
+	padding-left: 100px;
+    padding-right: 100px;
+}
+
 body,
 html {
 	overflow-x:hidden;
@@ -1070,6 +1075,12 @@ div.patron-intrest {
     margin: 20px;
 }
 
+.promotion img {
+    width:  30%;
+    max-width: 300px;
+    margin: 20px;
+}
+
 
 
 /* HOVER DIV */
@@ -1120,6 +1131,13 @@ div.sponsorDiv:hover +div.col-lg-12 {
 }
 
 #sce-sponsor{
+    width: 100%;
+    height: 75px;
+    max-width: 300px;
+    margin-top: 40px;
+}
+
+#gsa-sponsor{
     width: 100%;
     height: 75px;
     max-width: 300px;
@@ -1181,7 +1199,19 @@ div.sponsorDiv:hover +div.col-lg-12 {
 
 #lumenera-sponsor {
   	width:  120%;
-  	max-width: 300px;
+  	max-width: 250px;
+}
+
+#accenture-sponsor{
+    width: 100%;
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+#carleton-fed-sponsor{
+    width: 100%;
+    max-width: 300px;
+    margin-top: 75px;
 }
 
 #drdc-sponsor-2018 {
