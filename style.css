@@ -770,6 +770,13 @@ button:focus {
     max-height: 354px;
 }
 
+#qlik-speaker{
+    width: 350px;
+    max-width:350px;
+    height: 354px;
+    max-height: 354px;
+}
+
 .mu-speakers-slider .slick-next {
 	right: -60px;
 }
