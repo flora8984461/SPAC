@@ -1212,7 +1212,7 @@ div.sponsorDiv:hover +div.col-lg-12 {
 #accenture-sponsor{
     width: 100%;
     max-width: 250px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 #carleton-fed-sponsor{
@@ -1221,6 +1221,12 @@ div.sponsorDiv:hover +div.col-lg-12 {
     margin-top: 75px;
 }
 
+#psc-sponsor{
+	width: 100%;
+	height: auto;
+    max-width: 400px;
+    margin-top: 50px;
+}
 #drdc-sponsor-2018 {
   	width:  100%;
  	margin-top: 50px;
