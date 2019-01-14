@@ -1299,6 +1299,13 @@ div.sponsorDiv:hover +div.col-lg-12 {
     margin-top: 70px;
 }
 
+#bank-of-canada-sponsor{
+    width:  150%;
+    max-width: 218px;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
 #carleton-doe-sponsor{
     width:  140%;
     max-width: 250px;
