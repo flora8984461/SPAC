@@ -1141,13 +1141,13 @@ div.sponsorDiv:hover +div.col-lg-12 {
     width: 100%;
     height: 75px;
     max-width: 300px;
-    margin-top: 40px;
+    margin-top: 140px;
 }
 
 #gsa-sponsor{
     width: 100%;
-    height: 75px;
-    max-width: 300px;
+    height: 250px;
+    max-width: 250px;
     margin-top: 40px;
 }
 
