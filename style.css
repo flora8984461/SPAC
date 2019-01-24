@@ -1246,6 +1246,13 @@ div.sponsorDiv:hover +div.col-lg-12 {
     max-width: 400px;
     margin-top: 50px;
 }
+
+#algonquin-sponsor{
+    width: 100%;
+    max-width: 275px;
+    margin-top: 50px;
+}
+
 #drdc-sponsor-2018 {
   	width:  100%;
  	margin-top: 50px;
