@@ -11624,13 +11624,17 @@ button.questionTitle {
     }
 }
 
-@media (max-width:360px) {
+@media(max-width:400px){
     .mu-event-timeline ul li .mu-single-event,
     .mu-event-timeline ul li:nth-child(2n) .mu-single-event,
     .mu-event-timeline ul li:nth-child(2n+1) .mu-single-event {
         left: 30px;
-        width: 280px
+        width: 200px;
     }
+}
+
+@media (max-width:360px) {
+
     .video {
         max-width: 100%!important
     }
