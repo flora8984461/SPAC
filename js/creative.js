@@ -172,3 +172,4 @@ var browser={
 if(browser.versions.android){
   $('.paddingforAndroid').css('padding-top','5rem')
 }
+
