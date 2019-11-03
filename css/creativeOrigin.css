@@ -10790,6 +10790,7 @@ a.text-dark:hover {
 }
 
 .date {
+	font-family: 'Merriweather';
     color: #fff
 }
 
@@ -10930,8 +10931,12 @@ header.masthead {
     max-width: 100%
 }
 
-header.masthead h1 {
-    font-size: 2.25rem
+header.masthead h1, {
+    font-size: 2.25rem;
+}
+
+.spaca{
+    height: 2rem;
 }
 
 @media (min-width:992px) {
@@ -10942,17 +10947,25 @@ header.masthead h1 {
         padding-bottom: 0
     }
     header.masthead p {
-        font-size: 1.15rem
+        font-size: 1.15rem;
     }
     header.masthead h1 {
-        font-size: 3rem
+        font-size: 3rem;
     }
+	
+	.spaca{
+		height: 2.5rem;
+	}
 }
 
 @media (min-width:1200px) {
     header.masthead h1 {
-        font-size: 3.5rem
+        font-size: 3.5rem;
     }
+	
+	.spaca{
+		height: 3rem;
+	}
 }
 
 video {
@@ -11018,7 +11031,8 @@ video {
 }
 
 #small-dialog,
-#small-dialog2 {
+#small-dialog2,
+#small-dialog3{
     border-radius: 20px;
     background: #fff;
     padding: 20px 30px;
@@ -11369,6 +11383,10 @@ video {
     font-size: 12px
 }
 
+#first-day ul{
+    padding-left: 0;
+}
+
 .mgandpadzero {
     padding: 0;
     margin: 0
@@ -11486,7 +11504,7 @@ button.questionTitle {
 
 @media (max-width:776px) {
     .joinUsButton {
-        padding-bottom: 5rem
+        padding-bottom: 2rem;
     }
     .mu-event-timeline ul li {
         margin-left: 15%;
@@ -11516,8 +11534,7 @@ button.questionTitle {
     }
 }
 
-.fa,
-.tba {
+.fa, .tba {
     text-align: center
 }
 
@@ -11544,29 +11561,80 @@ button.questionTitle {
 
 .fa-transform-fb {
     right: 6px;
-    bottom: 9px
+    bottom: 9px;
 }
 
 .fa-transform-li {
     right: 7.25px;
-    bottom: 9px
+    bottom: 9px;
 }
 
 .fa-transform-ig {
     right: 8px;
-    bottom: 9px
+    bottom: 9px;
 }
 
 .fb {
-    background: #3B5998
+    background: #3B5998;
 }
 
 .li {
-    background: #007bb5
+    background: #007bb5;
 }
 
 .ig {
-    background: #125688
+    background: #125688;
+}
+
+.sp-bubbles{
+	position:relative;
+	z-index: 1;
+}
+
+.sp-bubble{
+	position:absolute;
+}
+
+.sp1{
+	left:150px;
+	/*add +30 for it to kiss the line*/
+}
+
+.sp2{
+	right:230px;
+	/*add +30 for it to kiss the line*/
+}
+
+.spleft{
+	left:0px;
+	right:30px;
+}
+
+.spright{
+	left:30px;
+	right:0px;
+}
+
+.sptop{
+	top:10px;
+}
+
+.spmiddle{
+	top:75px;
+}
+
+.spbottom{
+	top:135px;
+}
+
+.spaca{
+	display:inline;
+	position:relative;
+	bottom:5px;
+}
+
+.nowrap{
+	white-space:nowrap;
 }
 
 @media (max-width:480px) {
@@ -11622,6 +11690,10 @@ button.questionTitle {
     .Promotion{
         width:85%;
     }
+    #SpaceforjoinUs{
+        margin-top:0 !important;
+    }
+
 }
 
 @media(max-width:400px){
