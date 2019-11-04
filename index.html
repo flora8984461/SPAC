@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
   <meta name="description" content="">
@@ -11,7 +10,6 @@
   <title>SPAC 2020</title>
 
   <!-- Font Awesome Icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Google Fonts -->
@@ -22,7 +20,6 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Theme CSS - Includes Bootstrap -->
-  <!--<link href="css/creative.min.css" rel="stylesheet">-->
   <link href="css/animate.min.css" rel="stylesheet">
   <link href="css/creativeOrigin.css" rel="stylesheet">
   <!-- Website Icon-->
@@ -44,6 +41,9 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#BuyTicket">Tickets</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#speakers">Speakers</a>
           </li>
           <li class="nav-item">
@@ -53,7 +53,10 @@
             <a class="nav-link js-scroll-trigger" href="#patronage">Patronage</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" style="padding-right: 10px;" href="#mu-schedule">Agenda</a>
+            <a class="nav-link js-scroll-trigger" href="#mu-schedule">Agenda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" style="padding-right: 10px;" href="#contactUs">Contact Us</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" style="padding-right: 20px;" href="#FAQ">FAQ</a>
@@ -69,7 +72,7 @@
     <div class="row h-100 align-items-center justify-content-center text-center">
       <div class="col-lg-10 align-self-end">
 		<!-----changed by Guy-->
-        <h1 class="text-uppercase text-white font-weight-bold paddingforAndroid">IEEE Student Professional<br>Awareness Conference</h1>
+        <h1 class="text-uppercase text-white font-weight-bold paddingforAndroid">IEEE Student Professional <br> Awareness Conference</h1>
 		<!-----end of the change-->
         <hr class="divider my-4">
       </div>
@@ -118,10 +121,6 @@
             <div class="col-md-6 col-sm-12">
 
               <iframe height="315" class="video" src="https://www.youtube.com/embed/dpGWq9Mq3k4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <!--<video class="wow fadeInLeft" style="max-width: 100%" controls>
-                <source src="videos/trailer.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>-->
             </div>
             <div class="col-md-6 col-sm-12" style="text-align: center">
               <p class="wow fadeIn">
@@ -183,16 +182,25 @@
             </div>
       </div>
 
-        <div class="col-lg-6 col-md-6 text-center JoinUs">
+        <div class="col-lg-6 col-md-6 text-center JoinUs" id="BuyTicket">
           <div class="JoinUsCon">
             <h2 class="text-center mt-5">Join Us</h2>
             <hr class="divider my-4">
-            <div class="row mt-5">
-              <!--<div class="col-md-6 text-center">
-                <a class="btn btn-light btn-xl bt-join" href="https://startbootstrap.com/themes/creative/">Submit Resume</a>
-              </div>-->
-              <div class="col-md-12 text-center joinUsButton">
-                <a class="btn btn-light btn-xl bt-join js-scroll-trigger" href="#patronage">Become A Patron Today!</a>
+            <div class="row mt-5" id="SpaceforjoinUs">
+
+              <div class="col-md-6 text-center joinUsButton">
+                <a class="btn btn-light btn-xl bt-join popup-with-zoom-anim" href="#small-dialog3">Attendee? Buy your ticket!</a>
+              </div>
+
+              <div id="small-dialog3" class="zoom-anim-dialog mfp-hide">
+                <div class="cognito">
+                  <script src="https://services.cognitoforms.com/s/bkBngNoSYU2zSPstnzXF4A"></script>
+                  <script>Cognito.load("forms", { id: "1" });</script>
+                </div>
+              </div>
+
+              <div class="col-md-6 text-center joinUsButton">
+                <a class="btn btn-light btn-xl bt-join js-scroll-trigger" href="#patronage">Recruiter? Become a Patron Today!</a>
               </div>
             </div>
           </div>
@@ -206,14 +214,21 @@
       <h2 class="text-center mt-0">Speakers</h2>
       <hr class="divider my-4">
       <!-- <div class="row">
+	  
+	  
+		<div class="sp-bubbles sp1">
+			<a href="" class="fa fb sp-bubble spright sptop" target="_blank"><p class="fa-transform-fb fa-facebook"></p></a>
+			<a href="" class="fa li sp-bubble spleft spmiddle" target="_blank"><p class="fa-transform-li fa-linkedin"></p></a>
+			<a href="" class="fa ig sp-bubble spright spbottom" target="_blank"><p class="fa-transform-ig fa-instagram"></p></a>
+		</div>
+		
         <div class="col-lg-6 col-md-6 text-center">
           <a class="mt-5 wow zoomInLeft popup-with-zoom-anim speakerlink" href="#small-dialog">
-			Guy added read more- ->
-            <img src="img/speakers/unknown.png" class="speakerimg">
+            
+			<img src="img/speakers/unknown.png" class="speakerimg">
             <h3 class="h4 mb-2">Speaker Name 1</h3>
             <p class="text-muted mb-0">Founder of Company 1</p>
             <p class="text-muted mb-0"><i><u>Read More...</u></i></p>
-			End of change- ->
           </a>
 
           <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
@@ -232,10 +247,10 @@
             </div>
           </div>
         </div>
-
+		
         <div class="col-lg-6 col-md-6 text-center">
           <a class="mt-5 wow zoomInRight popup-with-zoom-anim speakerlink" href="#small-dialog2">
-              <img src="img/speakers/unknown.png" class="speakerimg">
+			<img src="img/speakers/unknown.png" class="speakerimg">
             <h3 class="h4 mb-2">Speaker Name 2</h3>
             <p class="text-muted mb-0">Project Lead at Company 2</p>
             <p class="text-muted mb-0"><i><u>Read More...</u></i></p>
@@ -243,18 +258,9 @@
         </div>
         <div id="small-dialog2" class="zoom-anim-dialog mfp-hide">
           <div class="row text-center">
-            <div class="container">
-              <img src="img/speakers/unknown.png" class="speakerimg">
-            </div>
-
-            <div class="container">
-              <h3>Second Speaker</h3>
-              <hr class="divider my-4">
-              <p> icons</p>
-            </div>
-              <div class="container">
-                <img src="img/speakers/unknown.png" class="speakerimg">
-              </div>
+			  <div class="container">
+				<img src="img/speakers/unknown.png" class="speakerimg">
+			  </div>
               <div class="container">
                 <h3>Speaker Name 2</h3>
                 <hr class="divider my-4">
@@ -265,8 +271,14 @@
             </div>
           </div>
         </div>
+		
+		<div class="sp-bubbles sp2">
+			<a href="" class="fa fb sp-bubble spleft sptop" target="_blank"><p class="fa-transform-fb fa-facebook"></p></a>
+			<a href="" class="fa li sp-bubble spright spmiddle" target="_blank"><p class="fa-transform-li fa-linkedin"></p></a>
+			<a href="" class="fa ig sp-bubble spleft spbottom" target="_blank"><p class="fa-transform-ig fa-instagram"></p></a>
+		</div>
 
-		</div> Comment out as requested by Rafid --> 
+		</div> Comment out as requested by Rafid--> 
 		
 		<p class="text-muted tba"><i>To be announced!</i></p>
       </div>
@@ -540,6 +552,17 @@
   </section>
 
 
+  <!--ContactUs Section -->
+  <section class="page-section text-white" id="contactUs" style="padding: 0;">
+    <div class="container-fluid" style="padding:0;">
+          <iframe src="https://services.cognitoforms.com/f/bkBngNoSYU2zSPstnzXF4A?id=2" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="527" width="100%"></iframe>
+          <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+    </div>
+  </section>
+
+
+
+
   <!---FAQ start
     <section class="page-section" id="FAQ">
       <div class="container-fluid">
@@ -648,7 +671,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container text-center">
-      <div class="small text-center text-muted">Managed and Created by Yi Liu and Guillaume Labasse<br>
+      <div class="small text-center text-muted">Managed and created by Yi Liu and Guillaume Labasse<br>
         Copyright© 2019 IEEE Carleton. Website available under MIT Licensing</div>
     </div>
   </footer>
