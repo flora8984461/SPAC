@@ -11594,7 +11594,7 @@ section#FAQ th{
 	}
 
 	#event3{
-		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/DSC_1031.JPG") !important;
+		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/DSC_1031.jpg") !important;
 	}
 
 	#event5{
@@ -11602,7 +11602,7 @@ section#FAQ th{
 	}
 
 	#event7{
-		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3295.JPG") !important;
+		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3295.jpg") !important;
 	}
 
 }
@@ -11612,15 +11612,15 @@ section#FAQ th{
 }
 
 #event2{
-	background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3387.JPG");
+	background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3387.jpg");
 }
 
 #event3{
-	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/compressed/DSC_1031.JPG");
+	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/compressed/DSC_1031.jpg");
 }
 
 #event4{
-	background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3515.JPG");
+	background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3515.jpg");
 }
 
 #event5{
@@ -11628,11 +11628,11 @@ section#FAQ th{
 }
 
 #event6{
-	background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3385.JPG");
+	background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/0X0A3385.jpg");
 }
 
 #event7{
-	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/compressed/0X0A3295.JPG");
+	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/compressed/0X0A3295.jpg");
 }
 
 .fa, .tba {
