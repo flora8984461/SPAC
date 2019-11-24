@@ -1,3 +1,12 @@
+window.addEventListener ("load", function() {
+    //Hide the spinner after 2 seconds
+    setTimeout(function(){
+		$("#loader").animate({"opacity":"0"},300,"easeInOutExpo", function(){
+			$("#loader").remove();
+		});
+	}, 2000);
+});
+
 (function($) {
   "use strict"; // Start of use strict
 
