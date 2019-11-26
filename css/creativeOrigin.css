@@ -11796,6 +11796,11 @@ section#FAQ th{
         margin-top:0 !important;
     }
 
+    /*for FAQ on mobile view*/
+    .FAQcol{
+        min-width:400px;
+    }
+
 }
 
 @media(max-width:400px){
@@ -11805,6 +11810,12 @@ section#FAQ th{
         left: 30px;
         width: 200px;
     }
+
+    /*for FAQ on mobile view*/
+    .FAQcol{
+        min-width:320px;
+    }
+
 }
 
 @media (max-width:360px) {
