@@ -11594,11 +11594,11 @@ section#FAQ th{
 	}
 
 	#event3{
-		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/compressed/DSC_1031.jpg") !important;
+		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/speakers/Richard Vallee_compressed_2.jpg") !important;
 	}
 
 	#event5{
-		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/speakers/Richard Vallee_compressed_2.jpg") !important;
+		background-image:linear-gradient(to left, rgb(0,0,0,0), white), url("../img/speakers/Raed Abdullah.png") !important;
 	}
 
 	#event7{
@@ -11616,7 +11616,7 @@ section#FAQ th{
 }
 
 #event3{
-	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/compressed/DSC_1031.jpg");
+	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/speakers/Richard Vallee_compressed_2.jpg");
 }
 
 #event4{
@@ -11624,7 +11624,7 @@ section#FAQ th{
 }
 
 #event5{
-	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/speakers/Richard Vallee_compressed_2.jpg");
+	background-image:linear-gradient(to right, rgb(0,0,0,0), white), url("../img/speakers/Raed Abdullah.png");
 }
 
 #event6{
