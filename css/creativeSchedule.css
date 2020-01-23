@@ -1,0 +1,83 @@
+body{
+	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	background-image: linear-gradient(to bottom, rgba(53,129,174,0.9), rgba(243,243,224,0.7)), url('../img/background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100vh;
+}
+
+div{
+    margin: 0 auto;
+	position:relative;
+}
+
+#title{
+	max-width:500px;
+}
+
+#timetable{
+	background-color:white;
+	max-width:500px;
+	padding:25px 0;
+	position:relative;
+	border-radius:25px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	-o-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+table {
+    margin: 0 auto;
+	border-radius:25px;
+	background-color:#FBF7F4;
+}
+
+p{
+	font-weight:200;	
+}
+
+table th:first-of-type{
+	width:100px;
+}
+
+table th:nth-of-type(2n){
+	width:calc(100% - 150px);
+	padding-left:15px;
+	text-align:left;
+}
+
+table tr:nth-of-type(2n){
+	background-color:#F7EEE9;
+}
+
+table th{
+	height:85px;
+	max-height:85px;
+	display:inline-block;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+table tr img{
+	width:100%;
+	height:100%;
+}
+
+table tr:first-of-type th{ 
+  border-radius: 15px 0 0 0;
+}
+
+table tr:last-of-type th{ 
+  border-radius: 0 0 0 15px;
+}
+
+h1{
+	text-align:center;
+	background-color:white;
+	border-radius:25px;
+}
+
+.time{
+	color: #00B8F1;
+}
