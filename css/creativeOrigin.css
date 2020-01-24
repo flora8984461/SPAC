@@ -11521,7 +11521,8 @@ section#FAQ th{
     border-radius: 25px;
     padding: 25px 15px 15px;
     font: 700 20px arial, serif;
-    color: #fff
+    color: #fff;
+	text-shadow: 0px 0px 4px black;
 }
 
 .time-dynamic {
