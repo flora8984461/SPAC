@@ -11519,7 +11519,6 @@ section#FAQ th{
 .countdown {
     background: rgba(188, 229, 240, .6);
     border-radius: 25px;
-    max-width: 300px;
     padding: 25px 15px 15px;
     font: 700 20px arial, serif;
     color: #fff
