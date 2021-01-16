@@ -2,37 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>SPAC 2020</title>
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPAC 2021</title>
   <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/animate.min.css" rel="stylesheet">
-  <link href="css/creativeOrigin.css" rel="stylesheet">
-  <!-- Website Icon-->
-  <link rel="icon" href="img/favicon.ico">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+  <link href="css/spac.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
-<div id="loader"></div>
+<body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/SPAC2020Logo1.png" style="max-height: 50px;"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand " href="#header"><img src="images/spaclogo.png" style="max-height: 50px;"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -41,636 +28,511 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#BuyTicket">Tickets</a>
+            <a class="nav-link js-scroll-trigger" href="#buyticket">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#events">Events</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#speakers">Speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
+            <a class="nav-link js-scroll-trigger" href="#agenda">Agenda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#patronage">Patronage</a>
           </li>
-		  <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#mu-schedule">Agenda</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contactUs">Contact Us</a>
+            <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" style="padding-right: 10px;" href="#FAQ">FAQ</a>
+            <a class="nav-link js-scroll-trigger" style="padding-right: 10px;" href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Masthead -->
-  <header class="masthead" data-ibg-bg="img/background.jpg">
-  <div class="container h-100 headword">
-    <div class="row h-100 align-items-center justify-content-center text-center">
-      <div class="col-lg-10 align-self-end">
-        <h1 class="text-uppercase text-white font-weight-bold paddingforAndroid">IEEE Student Professional <br> Awareness Conference</h1>
-        <hr class="divider my-4">
+  <main>
+    <section class="page-section" id="header">
+      <!-- Header -->
+      <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="videos/technology.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100 flex-column h-100 justify-content-center align-items-center">
+          <div class="flex-column h-100 mt-5 justify-content-center align-items-center">
+            <div class="w-100 text-white text-center header-text-mobile">
+              <h1 class="display-3 mt-5">IEEE Student Professional <br> Awareness Conference</h1>
+            </div>
+          </div>
+          <div class="w-100 text-white text-center mb-5">
+            <h2 class="h3 lead mb-0">January 21, 2021. OTTAWA, ON</h2>
+            <a href="#buyticket" class="m-3 btn custom-button js-scroll-trigger">Join Us</a>
+            <a href="#patronage" class="m-3 btn custom-button js-scroll-trigger">Sponsor Us</a>
+          </div>
+          <div class="text-center">
+            <a href="#about" class="m-3 btn custom-button js-scroll-trigger">Read More</a>
+          </div>
+          <div class="text-center mb-3">
+            <a href="https://www.facebook.com/ieeespacottawa/" class="fa fb" target="_blank"><i
+                class="fab fa-facebook-f fa-lg fa-transform-fb fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/spacottawa" class="fa linkedin" target="_blank"><i
+                class="fab fa-linkedin-in fa-lg fa-transform-li fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ieeespac/" class="fa ig" target="_blank"><i
+                class="fab fa-instagram fa-lg fa-transform-ig fa-instagram"></i></a>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-section" id="about">
+      <div class="container AnotherJoinandNumbers">
+        <div class="row m-0">
+          <div class="col-md-12 col-sm-12 flex-column align-items-center justify-content-center">
+            <h1 class="text-body m-3 text-white">About Us</h1>
+            <p class="text-white" style="max-width: 800px;">
+              The IEEE Student Professional Awareness
+              Conference (SPAC) is an annual formal
+              dinner event which serves respected
+              professionals to get engaged with
+              engineering and computer science
+              students within their fields.
+              SPAC provides students, academics, and
+              industry professionals, a chance to
+              network and bridge the gap between
+              classrooms and boardrooms, empowering
+              its attendees to build professional
+              connections.
+              Hosted in 1979 for the first time, SPAC has
+              manifested itself as an event where future
+              professionals get exposure to the world of
+              professionalism which complements their
+              vocational education.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row m-0">
+          <div class="col-md-12 col-sm-12 d-flex align-items-center justify-content-center">
+            <h1 class="text-white mb-3"> Why join us </h1>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-3 text-center">
+            <p class="numbers" id="number1"> 300 </p><br>
+            <label class="numberslabel">attendees</label>
+          </div>
+          <div class="col-md-3 text-center">
+            <p class="numbers" id="number2"> 8 </p><br>
+            <label class="numberslabel">years operation</label>
+          </div>
+          <div class="col-md-3 text-center">
+            <p class="numbers" id="number3"> 200 </p><br>
+            <label class="numberslabel">local engineering and <br>
+              computer science students</label>
+          </div>
+          <div class="col-md-3 text-center">
+            <p class="numbers" id="number4"> 100 </p><br>
+            <label class="numberslabel">companies and professors</label>
+          </div>
+        </div>
+        <hr />
+        <div class="col-md-12 col-sm-12 videoContainer d-flex align-items-center justify-content-center">
+          <iframe height="350" width="600" class="video" src="https://www.youtube.com/embed/dpGWq9Mq3k4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <hr />
       </div>
-      <div class="col-lg-8 align-self-baseline">
-        <p class="date font-weight-light mb-5">JANUARY 23, 2020. OTTAWA, ON</p>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-		<br><br><div class="countdown">
-			<h2><b>Stay tuned for SPAC 2021!</b></h2>
-		</div>
-		<br><br>
-		<a href="https://www.facebook.com/ieeespacottawa/" class="fa fb" target="_blank"><p class="fa-transform-fb fa-facebook"></p></a>
-		<a href="https://www.linkedin.com/company/spacottawa" class="fa li" target="_blank"><p class="fa-transform-li fa-linkedin"></p></a>
-		<a href="https://www.instagram.com/ieeespac/" class="fa ig" target="_blank"><p class="fa-transform-ig fa-instagram"></p></a>
-      </div>
-    </div>
-  </div>
-  </header>
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-body mt-0">About the Conference</h2>
-          <hr class="divider my-4">
+    </section>
+
+    <section class="page-section" id="buyticket">
+      <div class="row mt-5 mb-5 container-fluid d-flex align-items-center justify-content-center"><button type="button"
+          class="btn btn-primary" data-toggle="modal" data-target="#buy-ticket">Get your ticket now!</button></div>
+    </section>
+
+    <div class="modal fade" id="buy-ticket" tabindex="-1" role="dialog" aria-labelledby="buy-ticket" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="welcome-remarks-title">Buy Tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cognito">
+              <script src="https://www.cognitoforms.com/s/sWhmJL6Y6Ui1_sM-ANrI8w"></script>
+              <script>Cognito.load("forms", { id: "2" });</script>
+            </div>
+          </div>
         </div>
       </div>
-          <div class="row container-fluid">
-            <div class="col-md-6 col-sm-12">
+    </div>
 
-              <iframe height="315" class="video" src="https://www.youtube.com/embed/dpGWq9Mq3k4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container-fluid all-bg">
+      <section class="page-section" id="events">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h1 class="text-white m-3">Events</h1>
             </div>
-            <div class="col-md-6 col-sm-12" style="text-align: center">
-              <p class="wow fadeIn">
-			  
-                The IEEE Student Professional Awareness
-                Conference (SPAC) is an annual formal
-                dinner event which serves respected
-                professionals to get engaged with
-                engineering and computer science
-                students within their fields.
-                SPAC provides students, academics, and
-                industry professionals, a chance to
-                network and bridge the gap between
-                classrooms and boardrooms, empowering
-                its attendees to build professional
-                connections.
-                Hosted in 1979 for the first time, SPAC has
-                manifested itself as an event where future
-                professionals get exposure to the world of
-                professionalism which complements their
-                vocational education.
+          </div>
+          <div class="row" style="align-items: flex-end;">
+            <div class="col-md-4 col-sm-3">
+              <div class="event-container"><img class="img img-responsive" height="150"
+                  src="images/Icons/MAINSTAGE.png">
+              </div>
+              <div class="event-text text-center">
+                <h3>Main Stage</h3>
+                <p>Spot for speakers and<br>
+                  event kickoff</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-3">
+              <div class="event-container"><img class="img img-responsive" height="150" src="images/Icons/1on1.png">
+              </div>
+              <div class="event-text text-center">
+                <h3>Speed Dating</h3>
+                <p>Quick private one to one convos<br>
+                  with students in your discipline</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-3">
+              <div class="event-container"><img class="img img-responsive" height="150"
+                  src="images/Icons/exclusive-masterclass.png">
+              </div>
+              <div class="event-text text-center">
+                <h3>Exclusive Masterclass</h3>
+                <p>Stand alone event to reach<br>
+                  out, showcase and finesse</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-3">
+              <div class="event-container"><img class="img img-responsive" height="150" src="images/Icons/workshop.png">
+              </div>
+              <div class="event-text text-center">
+                <h3>Workshops</h3>
+                <p>Concurrently run, where you show<br>
+                  students what you're all about</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-3">
+              <div class="event-container"><img class="img img-responsive" height="150" src="images/Icons/panel.png">
+              </div>
+              <div class="event-text text-center">
+                <h3>Panel</h3>
+                <p>Where you can give insight<br>
+                  on the industry and inspire</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-3">
+              <div class="event-container"><img height="150" class="img img-responsive" src="images/Icons/booth.png">
+              </div>
+              <div class="event-text text-center">
+                <h3>Booths</h3>
+                <p>Where students can drop in for a<br>
+                  chitchat with your company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="page-section" id="speakers">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="text-white m-3">Speakers</h2>
+              <h4 class="text-white m-3">TO BE CONTINUED</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+            </div>
+            <div class="col-md-6 col-sm-6">
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="page-section" id="agenda">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h1 class="text-white m-3">Agenda</h1>
+            </div>
+          </div>
+          <a href="images/agenda.PNG" target="_blank">
+            <img class="img img-responsive" src="images/agenda.PNG" />
+          </a>
+        </div>
+      </section>
+    </div>
+    <!--all bg end-->
+
+    <div class="container-fluid bg-same">
+      <section class="page-section" id="patronage">
+        <div class="container mb-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h1 class="text-body text-white m-3">Patronage</h1>
+            </div>
+          </div>
+          <div class="mt-1 mb-1 container-fluid d-flex align-items-center justify-content-center"><a
+              href="docs/IEEE-SPAC-2021-Patronage-Package.pdf" class="btn btn-primary">Download patron package
+              here!</a>
+          </div>
+
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-12 col-sm-12">
+              <h2 class="mb-4 mt-5 text-white text-center">Partner Patron</h2>
+            </div>
+            <div class="col-lg-9 col-sm-12">
+              <a class="patronbox" style="height:200px;" href="https://www.nokia.com/" target="_blank"><img
+                  class=" patronimg" src="images/patrons/2021/logo-nokia.jpg"></a>
+            </div>
+
+            <div class="col-12 text-center">
+              <h2 class="mb-4 mt-5 text-white">Gold Patron</h2>
+            </div>
+            <div class="container justify-content-center Gold">
+              <div class="row justify-content-center Gold">
+                <div class="col-lg-6 col-sm-6">
+                  <a class="patronbox" href="https://www.ciena.ca/" target="_blank"><img class=" patronimg"
+                      src="images/patrons/bronze/bronze_ciena.png"></a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <a class="patronbox" href="https://www.fdmgroup.com/en-ca/ca-home/" target="_blank"><img
+                      class=" patronimg" src="images/patrons/2021/logo-fdm.png"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-center wow fadeIn">
+              <h2 class="mb-4 mt-5 text-white">Silver Patron</h2>
+              <div class="container justify-content-center Silver">
+                <div class="row justify-content-center Silver">
+                  <div class="col-lg-3 col-sm-6">
+                    <a class="patronbox" style="height:200px;" href="https://www.ellisdon.com/" target="_blank"><img
+                        class=" patronimg" src="images/patrons/bronze/bronze_Ellisdon-small.jpg"></a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <a class="patronbox" style="height:200px;" href="https://www.ubereats.com/ca" target="_blank"><img
+                        class=" patronimg" src="images/patrons/2021/logo-uber.png"></a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <a class="patronbox" style="height:200px;" href="https://www.rossvideo.com/" target="_blank"><img
+                        class=" patronimg" src="images/patrons/2021/logo-ross.png"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section" id="gallery">
+        <div class="container">
+          <div class="row justify-content-center">
+            <h2 class="text-white m-3">Gallery</h2>
+          </div>
+          <div class="row mb-5">
+            <div class="col-md-12 col-sm-12">
+              <div id="carousel-gallery" class="carousel slide" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-gallery" data-slide-to="1"></li>
+                  <li data-target="#carousel-gallery" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100 img-responsive" src="images/1.jpg"
+                          alt="First slide"></div>
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100" src="images/2.jpg" alt="Second slide">
+                      </div>
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100" src="images/3.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100 img-responsive" src="images/4.jpg"
+                          alt="First slide"></div>
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100 img-responsive" src="images/5.jpg"
+                          alt="First slide"></div>
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100 img-responsive" src="images/6.jpg"
+                          alt="First slide"></div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100 img-responsive" src="images/7.jpg"
+                          alt="First slide"></div>
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100 img-responsive" src="images/8.jpg"
+                          alt="First slide"></div>
+                      <div class="col-xs-12 col-md-4"><img class=" d-block w-100 img-responsive" src="images/9.jpg"
+                          alt="First slide"></div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-gallery" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-gallery" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+              <div class="row justify-content-center mt-3">
+                <a class="btn btn-primary btn-sm btn-rounded"
+                  href="https://drive.google.com/drive/folders/0B4VqCgvXdbxNfk1NWkxHUHd5Mm4yU21XbGZZU3U0ZVJndDQ1WU1RRF94Y0M5WDJidW10Q28">View
+                  More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section class="page-section" id="faq">
+        <div class="container">
+          <div class="row justify-content-center">
+            <h2 class="text-white m-3">Frequently Asked Questions</h2>
+          </div>
+          <div class="row FAQcontainer">
+            <div class="col-md-6">
+              <a data-toggle="collapse" href="#answer-1" role="button" aria-expanded="false" aria-controls="answer-1"
+                class="FAQbutton btn">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="FAQpoint"></div>
+                    </th>
+                    <th>
+                      Where is the event taking place?
+                    </th>
+                  </tr>
+                </table>
+              </a>
+              <p id="answer-1" class="collapse text-white">
+                SPAC is going virtual this year via Hopin. The link will be sent after registration.
+              </p>
+
+              <a data-toggle="collapse" href="#answer-2" role="button" aria-expanded="false" aria-controls="answer-2"
+                class="FAQbutton btn">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="FAQpoint"></div>
+                    </th>
+                    <th>
+                      How do I navigate Hopin?
+                    </th>
+                  </tr>
+                </table>
+              </a>
+              <p id="answer-2" class="collapse text-white">A tutorial is available through our Discord server. </p>
+
+              <a data-toggle="collapse" href="#answer-3" role="button" aria-expanded="false" aria-controls="answer-3"
+                class="FAQbutton btn">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="FAQpoint"></div>
+                    </th>
+                    <th>
+                      Where do I go for technical difficulties?
+                    </th>
+                  </tr>
+                </table>
+              </a>
+              <p id="answer-3" class="collapse text-white">Send your question on the Tech Support channel on Discord.
+              </p>
+            </div>
+
+            <div class="col-md-6">
+              <a data-toggle="collapse" href="#answer-4" role="button" aria-expanded="false" aria-controls="answer-4"
+                class="FAQbutton btn">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="FAQpoint"></div>
+                    </th>
+                    <th>
+                      Should I have my camera and mic on?
+                    </th>
+                  </tr>
+                </table>
+              </a>
+              <p id="answer-4" class="collapse text-white">It’s always a good idea to have your mic and camera on when
+                Speed Dating, or networking. During Panels and Masterclasses, we ask that you mute your mic and turn off
+                your camera.</p>
+
+              <a data-toggle="collapse" href="#answer-5" role="button" aria-expanded="false" aria-controls="answer-5"
+                class="FAQbutton btn">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="FAQpoint"></div>
+                    </th>
+                    <th>
+                      Should I dress up?
+                    </th>
+                  </tr>
+                </table>
+              </a>
+              <p id="answer-5" class="collapse text-white">Up to you!</p>
+
+              <a data-toggle="collapse" href="#answer-6" role="button" aria-expanded="false" aria-controls="answer-6"
+                class="FAQbutton btn">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="FAQpoint"></div>
+                    </th>
+                    <th>
+                      How can I ask the Panel or Masterclass presenter questions?
+                    </th>
+                  </tr>
+                </table>
+              </a>
+              <p id="answer-6" class="collapse text-white">Send your question on the Q&A channel on Discord, we’ll ask
+                them for you!
               </p>
             </div>
           </div>
+        </div>
+      </section>
     </div>
-  </section>
 
 
-  <!--Why should you attend-->
-  <section class="page-section" id="JoinandNumbers">
-    <div class="row container-fluid" id="AnotherJoinandNumbers">
-      <div class="col-lg-6 col-md-6 text-center NumberUp">
-
-            <div class="mt-5 NumberUpCon">
-              <div class="row" style="padding-bottom: 3rem;">
-                <div class="col-md-6 text-center">
-                  <p class="numbers" id="number1"> 300 </p><br>
-                  <label class="numberslabel">attendees</label>
-                </div>
-                <div class="col-md-6 text-center">
-                  <p class="numbers" id="number2"> 8 </p><br>
-                  <label class="numberslabel">years operation</label>
-                </div>
-              </div>
-
-              <div class="row" style="padding-bottom: 3rem;">
-                <div class="col-md-6 text-center">
-                  <p class="numbers" id="number3"> 200 </p><br>
-                  <label class="numberslabel">local engineering and
-                    computer science students</label>
-
-                </div>
-                <div class="col-md-6 text-center">
-                  <p class="numbers" id="number4"> 100 </p><br>
-                  <label class="numberslabel">companies and professors</label>
-
-                </div>
-              </div>
-            </div>
-      </div>
-
-        <div class="col-lg-6 col-md-6 text-center JoinUs" id="BuyTicket">
-          <div class="JoinUsCon">
-            <h2 class="text-center mt-5">Join Us</h2>
-            <hr class="divider my-4">
-            <div class="row mt-5" id="SpaceforjoinUs">
-
-              <div class="col-md-6 text-center joinUsButton">
-                <a class="btn btn-light btn-xl bt-join popup-with-zoom-anim" href="#small-dialog3">Attendee? Buy your ticket!</a>
-              </div>
-
-              <div id="small-dialog3" class="zoom-anim-dialog mfp-hide">
-                <div class="cognito">
-                  <script src="https://services.cognitoforms.com/s/bkBngNoSYU2zSPstnzXF4A"></script>
-                  <script>Cognito.load("forms", { id: "1" });</script>
-                </div>
-              </div>
-
-              <div class="col-md-6 text-center joinUsButton">
-                <a class="btn btn-light btn-xl bt-join js-scroll-trigger" href="#patronage">Recruiter? Become a Patron Today!</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <!-- Speakers Section -->
-  <section class="page-section" id="speakers">
-    <div class="container">
-      <h2 class="text-center mt-0">Speakers</h2>
-      <hr class="divider my-4">
-      <div class="row">
-
-		<!--<div class="sp-bubbles sp1">
-			<a href="" class="fa fb sp-bubble spright sptop" target="_blank"><p class="fa-transform-fb fa-facebook"></p></a>
-			<a href="" class="fa li sp-bubble spleft spmiddle" target="_blank"><p class="fa-transform-li fa-linkedin"></p></a>
-			<a href="" class="fa ig sp-bubble spright spbottom" target="_blank"><p class="fa-transform-ig fa-instagram"></p></a>
-		</div>-->
-		
-        <div class="col-lg-6 col-md-6 text-center">
-          <a class="mt-5 wow zoomInLeft popup-with-zoom-anim speakerlink" href="#small-dialog">
-            
-			<img src="img/speakers/Richard%20Vallee_compressed.jpg" class="speakerimg">
-            <h3 class="h4 mb-2">Richard Vallée</h3>
-            <p class="text-muted mb-0">Cisco Systems</p>
-
-            <p class="text-muted mb-0"><i><u>Read More...</u></i></p>
-          </a>
-
-          <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-            <div class="row text-center">
-              <div class="container">
-                <img src="img/speakers/Richard%20Vallee_compressed.jpg" class="speakerimg">
-              </div>
-              <div class="container">
-                <h3>Richard Vallée</h3>
-                <hr class="divider my-4">
-                <h4>Cisco Systems</h4>
-              </div>
-              <div class="row">
-                <p>Richard Vallée is director of S/W engineer at Cisco Canada.
-
-                  Richard joined Cisco Ottawa in 2000, after working 10 years at Nortel.
-
-                  For the last 20+ years, Richard has been leading teams and organizations innovating and
-                  delivering software in Routing and Protocol areas. His team has been leading the industry in defining
-                  routing protocol and having a very significant impact on Cisco Service Provider business.
-
-                  Richard has a B.A.Sc from Laval University in Quebec City and
-                  a M.A.Sc from University of Ottawa both in Electrical Engineering.
-
-                  In his spare time, Richard enjoys playing hockey,
-                  skiing, fishing and spending time with his son.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-		
-        <div class="col-lg-6 col-md-6 text-center">
-          <a class="mt-5 wow zoomInRight popup-with-zoom-anim speakerlink" href="#small-dialog2">
-			<img src="img/speakers/Raed%20Abdullah.png" class="speakerimg">
-            <h3 class="h4 mb-2">Raed Abdullah</h3>
-            <p class="text-muted mb-0">IEEE Ottawa Section</p>
-            <p class="text-muted mb-0"><i><u>Read More...</u></i></p>
-          </a>
-        </div>
-        <div id="small-dialog2" class="zoom-anim-dialog mfp-hide">
-          <div class="row text-center">
-			  <div class="container">
-				<img src="img/speakers/Raed%20Abdullah.png" class="speakerimg">
-			  </div>
-              <div class="container">
-                <h3>Raed Abdullah</h3>
-                <hr class="divider my-4">
-                <h4>IEEE Ottawa Section</h4>
-              </div>
-            <div class="row">
-              <p>After graduating university, Raed Abdullah had four real jobs, been promoted and demoted, and almost got fired seven times.  The present and longest job he's held was with Hydro Ottawa (and former Ottawa Hydro) for just over 28 1/2-years. Raed had changed roles seven times before settling now as a Distribution Engineer and MiGen Ph. I Initiator and Project Lead.  He's not yet sure what will happen next.
-
-                His memorable moments were working through the Ice Storm and Eastern Canada Blackout, initiating innovative projects, influencing electricity industry policy, and helping good people thrive in their business.
-
-                He's been a member of IEEE for 33-years and a volunteer for almost that long too.  Plus, he is a professional engineer in good standing registered in the Province of Ontario.
-                Raed keeps healthy and happy by finding fun in everything he does like intense innovating, exercising, traveling, gardening, and volunteering for IEEE, kids sports, and community activities.  In his spare time, he ... we'll he's looking for some...
-              </p>
-            </div>
-          </div>
-        </div>
-		</div>
-      </div>
-  </section>
-
-  <!-- Gallery Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0" id="galleryContainer">
-      <h2 class="text-center mt-0" style="padding-top: 3rem;">Gallery</h2>
-      <hr class="divider my-4">
-      <div class="row no-gutters bg-dark">
-
-        <div class="grid-container">
-          <div class="gallery__item gallery__item--1">
-          <img src="img/compressed/0X0A3287.jpg" class="gallery__img wow fadeIn" alt="Image 1">
-          </div>
-          <div class="gallery__item gallery__item--2">
-            <img src="img/compressed/DSC_1047.jpg" class="gallery__img wow fadeIn" alt="Image 2">
-          </div>
-          <div class="gallery__item gallery__item--3">
-            <img src="img/compressed/0X0A3340.jpg" class="gallery__img wow fadeIn" alt="Image 3">
-          </div>
-          <div class="gallery__item gallery__item--4">
-            <img src="img/compressed/0X0A3339.jpg" class="gallery__img wow fadeIn" alt="Image 4">
-          </div>
-          <div class="gallery__item gallery__item--5">
-            <img src="img/compressed/0X0A3515.jpg" class="gallery__img wow fadeIn" alt="Image 5">
-          </div>
-          <div class="gallery__item gallery__item--6">
-            <img src="img/compressed/0X0A9654.jpg" class="gallery__img wow fadeIn" alt="Image 6">
-          </div>
-          <div class="gallery__item gallery__item--1">
-            <img src="img/compressed/DSC_1031.jpg" class="gallery__img wow fadeIn" alt="Image 1">
-          </div>
-          <div class="gallery__item gallery__item--2">
-              <img src="img/compressed/0X0A3354.jpg" class="gallery__img wow fadeIn" alt="Image 2">
-          </div>
-          <div class="gallery__item gallery__item--3">
-            <img src="img/compressed/DSC_1034.jpg" class="gallery__img wow fadeIn" alt="Image 3">
-          </div>
-          <div class="gallery__item gallery__item--4">
-            <img src="img/compressed/DSC_1033.jpg" class="gallery__img wow fadeIn" alt="Image 4">
-          </div>
-          <div class="gallery__item gallery__item--5">
-            <img src="img/compressed/IMG_5568.jpg" class="gallery__img wow fadeIn" alt="Image 5">
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- see more Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4" style="color: #4d4a46;">Click here to see more!</h2>
-      <a class="btn btn-light btn-xl" href="https://drive.google.com/drive/folders/0B4VqCgvXdbxNfk1NWkxHUHd5Mm4yU21XbGZZU3U0ZVJndDQ1WU1RRF94Y0M5WDJidW10Q28" target="_blank">See More</a>
-    </div>
-  </section>
-
-  <!-- Patron Section -->
-  <section class="page-section" id="patronage">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Patrons</h2>
-          <hr class="divider my-4">
-
-          <div class="col-md-12 text-center joinUsButton">
-            <a class="btn btn-light btn-xl bt-join" style="background-color: #00a6ff;color:white;" href="docs/IEEE SPAC 2020 Patronage Package.pdf" target="_blank">Download Patronage Package Here!</a>
-          </div>
-          <br>
-          <p class="text-muted mb-5">Find the top tech talent in Ottawa today by pledging your patronage to SPAC!</p>
-        </div>
-      </div>
-      <div class="row justify-content-center wow fadeIn">
-        <h2 class="mb-4 mt-5">Partner Patron</h2>
-          <div class="col-lg-12 col-sm-12">
-              <a class="patronbox" style="height:200px;" href="https://www.cisco.com/c/en_ca/index.html" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/partner/Partner_Cisco.PNG"></a>
-          </div>
-      </div>
-
-      <div class="row justify-content-center wow fadeIn">
-        <h2 class="mb-4 mt-5">Gold Patron</h2>
-        <div class="row block-content-center justify-content-center Gold">
-          <div class="col-lg-4 col-sm-6">
-            <a class="patronbox" href="https://gdmissionsystems.ca/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/gold/gold_generaldynamics.jpg"></a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="patronbox" href="https://www.ieeeottawa.ca/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/gold/gold_ieeeottawasection.png"></a>
-          </div>
-      </div>
-      </div>
-
-      <div class="row justify-content-center wow fadeIn">
-        <h2 class="mb-4 mt-5">Silver Patron</h2>
-        <div class="row block-content-center justify-content-center Silver">
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://carleton.ca/engineering-design/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_carletonfed.jpg"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://gsacarleton.ca/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_gsa.png"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://martellotech.com/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_martello.png"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://www.rossvideo.com/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_Ross.png"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://www.ieee.ca/en/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_IEEE%20Canada.jpg"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://www.nokia.com/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_NOKIA_LOGO-compressed.jpg"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://www.doe.carleton.ca/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_carleton_doe.jpg"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://carleton.ca/sce/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_System&Compt_small.png"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://engineering.uottawa.ca/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_engUO.png"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://www.algonquincollege.com/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/silver/silver_algonquin.png"></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center wow fadeIn">
-        <h2 class="mb-4 mt-5">Bronze Patron</h2>
-        <div class="row block-content-center justify-content-center Bronze">
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://carleton.ca/scs/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/bronze/bronze_cuschoolofcomputerscience.png"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://www.ciena.ca/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/bronze/bronze_ciena.png"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://carleton.ca/co-op/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/bronze/Bronze-Carleton%20University%20-%20Co-operative%20Education%20Logo.jpg"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://www.ellisdon.com/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/bronze/bronze_Ellisdon-small.jpg"></a>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <a class="patronbox" href="https://wie.ieeeottawa.ca/" target="_blank"><img class="patronimg" src="img/patrons/2020%20patrons/bronze/Bronze_WIE_small.png"></a>
-          </div>
-        </div>
-      </div>
-
-      <!--  <div class="row justify-content-center wow fadeIn">
-          <h2 class="mb-4">Promotion Patron</h2>
-          <div class="col-lg-12 col-sm-12 Promotion">
-            <a class="patronbox" href="https://www.investottawa.ca/" target="_blank"><img class="patronimg" src="img/patrons/compressed/promotion_investottawa.jpg"></a>
-          </div>
-        </div> -->
-    </div>
-  </section>
-
-<!--agenda-->
-  <section class="page-section bg-dark text-white" id="mu-schedule">
-    <!-- Timeline -->
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-lg-3 text-center agendabg">
-          <h2 class="agendaTitle">Agenda</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-2 text-center timetitlebg">
-          <p class="timetitle">JANUARY 23, 2020</p>
-        </div>
-      </div>
-      <div class="row container-fluid">
-          <div class="mu-schedule-area">
-            <div class="mu-schedule-content-area">
-              <div role="tabpanel" class="tab-pane fade mu-event-timeline in active show" id="first-day">
-                <ul>
-                  <li class="wow fadeIn">
-                    <div class="mu-single-event" id="event1">
-                      <p class="mu-event-time">5:30 - 6:30PM</p>
-                      <h3>Registration and networking</h3>
-                    </div>
-                  </li>
-                  <li class="wow fadeIn">
-                    <div class="mu-single-event" id="event2">
-                      <p class="mu-event-time">6:35 - 6:45PM</p>
-                      <h3>Welcoming Remarks</h3>
-                    </div>
-                  </li>
-                  <li class="wow fadeIn">
-                    <div class="mu-single-event" id="event3">
-                      <p class="mu-event-time">6:45 - 7:00PM</p>
-                      <h3>Speaker #1: Richard Vallée</h3>
-                    </div>
-                  </li>
-                  <li class="wow fadeIn">
-                    <div class="mu-single-event" id="event4">
-                      <p class="mu-event-time">7:00 - 7:45PM</p>
-                      <h3>Dinner</h3>
-                    </div>
-                  </li>
-                  <li class="wow fadeIn">
-                    <div class="mu-single-event" id="event5">
-                      <p class="mu-event-time">7:50 - 8:05PM</p>
-                      <h3>Speaker #2: Raed Abdullah</h3>
-                    </div>
-                  </li>
-                  <li class="wow fadeIn">
-                    <div class="mu-single-event" id="event6">
-                      <p class="mu-event-time">8:05 - 8:20PM</p>
-                      <h3>Closing Remarks & Prizes</h3>
-                    </div>
-                  </li>
-                  <li class="wow fadeIn">
-                    <div class="mu-single-event" id="event7">
-                      <p class="mu-event-time">8:20 - 10:20PM</p>
-                      <h3>Networking</h3>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-      </div>
-    </div>
-    <!-- Timeline -->
-  </section>
-
-  <!--Map Section -->
-  <section class="page-section text-white" id="contact" style="padding: 0; background: #77D0E6;">
-    <div class="container-fluid" style="padding:0;">
-    <div class="row container-fluid fadeIn mgandpadzero">
-      <div class="col-lg-6 col-md-6" style="padding: 0;">
-      <div class="mu-venue-map wow fadeIn">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.178082766205!2d-75.71460028444447!3d45.40574837910034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0449de01da0b%3A0xe24d54bea478a22e!2sSala+San+Marco+Event+%26+Conference+Centre!5e0!3m2!1sen!2sca!4v1540733694130" width="100%" height="500" frameborder="0" style="border:0;margin-bottom: -8px;" allowfullscreen></iframe>
-      </div>
-      </div>
-
-      <div class="col-lg-6 col-md-6 text-center">
-        <div class="wow fadeIn" style="padding-top:30px;padding-bottom: 2rem;">
-          <h2 style="color: white">Venue</h2>
-          <h3 class="h4 mb-2" style="color: white">Sala San Marco<br>Event & Conference Centre</h3>
-          <p class="mb-0" style="color: white">215 Preston St, Ottawa, ON K1R 7R1</p>
-          <img src="img/Grand-ballroom-cover.jpg" class="conf"> <!--Guy, this class has the style! please don't remove it again-->
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-
-
-  <!--ContactUs Section -->
-  <section class="page-section text-white" id="contactUs" style="padding: 0;">
-    <div class="container-fluid" style="padding:0;">
-          <iframe src="https://services.cognitoforms.com/f/bkBngNoSYU2zSPstnzXF4A?id=2" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="527" width="100%"></iframe>
-          <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
-    </div>
-  </section>
-
-  <!--FAQ section-->
-	<section class="page-section" id="FAQ">
-		<div class="container-fluid">
-			<h2 class="text-center mt-0">Frequently Asked Questions</h2>
-			<hr class="divider my-4">
-			<div class="FAQcontainer">
-				<div class="FAQcol">
-					<button class="FAQbutton btn defaultopen">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							Where and when will the event take place?<br>How do we get there?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent">The event will take place on <b>January 23, 2020</b> from 6 pm to 10:30 pm at <b>Sala San Marco</b>, 215 Preston Street, Ottawa ON K1R 7R1. If you have purchased the bus service along with your ticket, you may refer to the answer beside this for the locations of the bus stops. </p>
-					
-					<button class="FAQbutton btn">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							What should you wear?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent">Please wear a <b>formal attire</b> (suit and tie, etc.).</p>
-					
-					<button class="FAQbutton btn">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							Where can tickets be purchased?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent">Tickets are only sold <b>online</b>, on this website. <a class="js-scroll-trigger" href="#BuyTicket">Click here!</a></p>
-					
-					<button class="FAQbutton btn">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							What should you bring?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent">You aren't required to bring anything. You may bring your resume, though you are encouraged to upload it online when purchasing your tickets.</p>
-					
-					<button class="FAQbutton btn">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							My questions haven't been answered.<br>Who can I contact for more information?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent">You can contact us through the above <b><a class="js-scroll-trigger" href="#contactUs">contact form</a></b> or on our <a href="https://www.facebook.com/ieeespacottawa/">Facebook</a>. If there's any problem, you can also reach us with a <a href="mailto:info@ieeespac.ca">direct email</a>. We're always glad to help!</p>
-				</div>
-				
-				
-				<div class="FAQcol">
-					<button class="FAQbutton btn defaultopen">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							Where are the pickup and drop off locations<br>for the buses?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent">Pickup will happen both at <b>Carleton University</b> and the <b>University of Ottawa</b> approximately <b>one hour</b> before the event. After the event, there will be 2 buses for 2 different routes:<br><br>
-						&emsp;<b>• Bus 1</b> will have its first drop off point near Tunney’s Pasture station and will have its second drop off point in Carleton University.<br>
-						&emsp;<b>• Bus 2</b> will have its first drop off point in Blaire and will have its second drop off point in the University of Ottawa.
-					</p>
-					
-					<button class="FAQbutton btn">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							What are the available food options for the event?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent">All meat is halal. There will also be vegetarian, vegan, and gluten free options. </p>
-					
-					<button class="FAQbutton btn">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							Will a coat check service be provided?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent"><b>Yes</b>, there will be a coat check service provided to you at the event. </p>
-					
-					<button class="FAQbutton btn">
-						<table><tr><th><div class="FAQpoint"></div></th><th>
-							Are there any volunteering opportunities with SPAC?
-						</th></tr></table>
-					</button>
-					<p class="FAQcontent"><b>Yes there are!</b> Applications will be sent out closer to the date of the event, so be sure to check our social media regularly for more news.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-<!--fAQ end-->
-
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container text-center">
-      <div class="small text-center text-muted">Managed and created by Yi Liu and Guillaume Labasse<br>
-        Copyright© 2019 IEEE Carleton. Website available under MIT Licensing</div>
-    </div>
-  </footer>
+    <section id="contact">
+      <iframe src="https://www.cognitoforms.com/f/sWhmJL6Y6Ui1_sM-ANrI8w?id=1"
+        style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes"
+        seamless="seamless" height="550" width="100%"></iframe>
+      <script src="https://www.cognitoforms.com/scripts/embed.js"></script>
+    </section>
+  </main>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/lib/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script color="0,98,155" zIndex="-3" src="js/bgui.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="js/jquery.interactive_bg.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src="js/creative.js"></script>
-  <script type="text/javascript">
-	//Time Countdown
-	var eventDate = new Date("Jan 23, 2020 17:30:00").getTime();
-	var x = setInterval(function() {
-		var timeLeft = eventDate - new Date().getTime();
-		
-		var day = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-		var hour = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		var min = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-		var sec = Math.floor((timeLeft % (1000 * 60)) / 1000);
-		
-		document.getElementById("day").innerHTML = (/^\d$/.test(day)? "0" : "") + day.toString();
-		document.getElementById("hour").innerHTML = (/^\d$/.test(hour)? "0" : "") + hour.toString();
-		document.getElementById("min").innerHTML = (/^\d$/.test(min)? "0" : "") + min.toString();
-		document.getElementById("sec").innerHTML = (/^\d$/.test(sec)? "0" : "") + sec.toString();
-	}, 1000);
-	
-	//Collapsible Setup (to be moved)
-	var faqb = document.getElementsByClassName("FAQbutton");
 
-	for (var i = 0; i < faqb.length; i++) {
-		faqb[i].addEventListener("click", function() {
-			$(this).find('.FAQpoint').toggleClass("active");
-			var content = this.nextElementSibling;
-			if (content.style.maxHeight){
-				content.style.maxHeight = null;
-			} else {
-				content.style.maxHeight = content.scrollHeight + "px";
-			} 
-		});
-		
-		if(i==0 || i==5) faqb[i].click();
-	}
-  </script>
-
+  <!-- Custom JS-->
+  <script src="js/spac.js"></script>
 </body>
 
 </html>
