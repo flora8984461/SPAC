@@ -396,6 +396,10 @@ hr {
 
 @media (max-width: 767px) {
 
+  .mobile-h1-font {
+    font-size: 3.8rem;
+  }
+
   .btn-primary {
     font-size: large;
   }
