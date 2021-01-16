@@ -384,11 +384,17 @@ hr {
   }
 }
 
+@media (min-width: 768px) {
+  .desktop-mb-5 {
+    margin-bottom: 50px;
+  }
+  .desktop-mt-5 {
+    margin-top: 50px;
+  }
+}
+
 
 @media (max-width: 767px) {
-  .table > tbody > tr > td {
-    padding: 5px;
-  }
 
   .btn-primary {
     font-size: large;
