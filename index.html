@@ -58,6 +58,38 @@
   </nav>
 
   <main>
+
+    <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModal"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3 class="m-3 text-center"> 👏👏 Our SPAC is happening soon, please book your tick and register in our
+              Hopin! 💥💥
+            </h3>
+            <div class="text-center">
+              <h4 class="m-1"> Check 'Upload Your Resume' if you want to share your resume with our patrons: </h4>
+              <button id="modal-button-ticket" type="button" class="btn btn-info js-scroll-trigger m-3"
+                data-dismiss="modal">Upload Your Resume</button>
+              <h4 class="m-1"> You can also directly join the Hopin below: </h4>
+              <a href="https://hopin.com/events/spac-2021-virtual" class="btn btn-danger m-3">Register on Hopin</a>
+              <h4 class="m-3"> If you have any questions or encountered an technical issue, please join our Discord
+                Channel below!
+                👇👇 </h4>
+              <a href="https://discord.gg/sqcZ8UF7hB" class="btn btn-warning m-3">Join Our
+                Discord!</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     <section class="page-section" id="header">
       <!-- Header -->
       <header>
@@ -153,8 +185,12 @@
     </section>
 
     <section class="page-section" id="buyticket">
-      <div class="row mt-5 mb-5 container-fluid d-flex align-items-center justify-content-center"><button type="button"
-          class="btn btn-primary" data-toggle="modal" data-target="#buy-ticket">Get your ticket now!</button></div>
+      <div class="row mt-5 mb-5 container-fluid d-flex align-items-center justify-content-center">
+        <button type="button" class="btn btn-lighter-blue m-3" data-toggle="modal" data-target="#buy-ticket">Upload Your
+          Resume</button>
+        <a href="https://hopin.com/events/spac-2021-virtual" class="btn btn-primary m-3">Get your ticket now</a>
+        <a href="https://discord.gg/sqcZ8UF7hB" class="btn btn-lighter-blue m-3">Join Our Discord</a>
+      </div>
     </section>
 
     <div class="modal fade" id="buy-ticket" tabindex="-1" role="dialog" aria-labelledby="buy-ticket" aria-hidden="true">
@@ -545,6 +581,11 @@
         seamless="seamless" height="550" width="100%"></iframe>
       <script src="https://www.cognitoforms.com/scripts/embed.js"></script>
     </section>
+
+    <div class="fixed-button">
+      <button type="button" data-toggle="modal" data-target="#welcomeModal" class="btn btn-success"><span
+          class="fixed-button-text">Join Us</span></button>
+    </div>
   </main>
 
   <!-- Bootstrap core JavaScript -->
@@ -552,6 +593,12 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#welcomeModal').modal('show');
+    });
+  </script>
 
   <!-- Custom JS-->
   <script src="js/spac.js"></script>

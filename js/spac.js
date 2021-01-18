@@ -39,4 +39,18 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  // button use Smooth scrolling using jQuery easing
+  $('#modal-button-ticket').on('click', function () {
+    $('html, body').animate({
+      scrollTop: $("#buyticket").offset().top - 72
+    }, 200);
+  });
+
+  $('#welcomeModal').on('show.bs.modal', function (e) {
+    $('.fixed-button').css('display', 'none');
+  })
+  $('#welcomeModal').on('hidden.bs.modal', function (e) {
+    $('.fixed-button').css('display', 'block');
+  })
+
 })(jQuery); // End of use strict

@@ -28,6 +28,29 @@
   background: linear-gradient(to bottom,#00283A 0, #186FA0 100%);
 }
 
+.btn-lighter-blue {
+  color: #00283A;
+  background-color:#b9e1fa;
+  border-color: #b9e1fa;
+  padding: 20px;
+  font-size: large;
+  font-weight: 700;  
+}
+
+.btn-lighter-blue:hover {
+  color: #0056b3;
+}
+
+/* animation */
+@keyframes shrink {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+}
+
 /* Header CSS */
 header {
   position: relative;
@@ -329,6 +352,37 @@ hr {
 
 .FAQbutton:hover {
   color: #8BC9EF;
+}
+
+.fixed-button {
+  position: fixed;
+  z-index: 999999;
+  bottom: 0;
+  top: auto;
+  right: 5%;
+}
+
+.fixed-button button {
+  height: 40px;
+  animation-name: shrink;
+  animation-timing-function: ease-in-out;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+.fixed-button button:hover {
+  height: 80px;
+  width: 150px;
+}
+
+.fixed-button button:hover .fixed-button-text {
+  font-size: x-large;
+}
+
+.fixed-button-text {
+  /* writing-mode: vertical-rl;
+  text-orientation: upright; */
+  font-weight: 800;
 }
 
 /* Media Size */
